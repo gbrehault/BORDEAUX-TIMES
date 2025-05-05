@@ -1,0 +1,29 @@
+div {
+    margin-top: 2rem;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+input {
+    border: solid 0.2rem #4F5D75;
+    border-radius: 0.5rem;
+    padding: 0.6em 1.2em;
+    width: 50%;
+}
+
+h1 {
+    padding-bottom: 10px;
+    font-size: 2rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    color: #4F5D75;
+    margin: 0;
+}

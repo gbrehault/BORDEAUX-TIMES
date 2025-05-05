@@ -1,0 +1,19 @@
+.container-max {
+    max-width: 80rem;
+}
+
+.articles {
+    width: 100%;
+    display: block;
+}
+
+h2 {
+    font-size: 1rem;
+    color: #4F5D75;
+    text-align: start;
+}
+
+p {
+    color: #395756;
+    text-align: start;
+}

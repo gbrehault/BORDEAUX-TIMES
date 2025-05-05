@@ -1,0 +1,62 @@
+/* === Layout général === */
+header {
+    background-color: #1B3022;
+    border-radius: 1rem;
+    padding: clamp(1rem, 4vw, 2rem);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* === Navigation === */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    padding-left: 0;
+    color: white;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+/* === Titres === */
+
+h3 {
+    color: white;
+}
+
+/* === Liens & listes === */
+li {
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* === Responsive mobile === */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    ul {
+        justify-content: flex-start;
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 1.25rem;
+    }
+}
